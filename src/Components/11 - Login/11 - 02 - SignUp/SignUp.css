@@ -1,0 +1,36 @@
+.loginBody{
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../../../assets/images/LoginBg.jpeg') no-repeat;
+    background-size: cover;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    width: 45vw;
+    background-color: aliceblue;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+Form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+Form.Control{
+    margin: 10px;
+}
+
+.btns{
+    font-size: 20px;
+    padding: 10px;   
+}

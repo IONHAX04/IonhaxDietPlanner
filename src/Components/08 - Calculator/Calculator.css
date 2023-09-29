@@ -1,0 +1,62 @@
+.calculatorContents{
+    display: flex;
+}
+
+
+.call{
+    width: 50%;
+}
+
+
+.calories, .fat{
+    padding: 45px;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.178);
+    margin: 10px;
+}
+
+.calories span{
+    color: rgba(0, 0, 255, 0.705);
+    font-weight: bolder;
+}
+
+
+.guide h5{
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+.guide span{
+    color: rgb(255, 170, 0);
+}
+
+
+.calorieCalculator span{
+    color: rgb(255, 170, 0);
+}
+
+.basic-addon1{
+    color: black !important;
+}
+
+.you{
+    border: 1px solid rgba(0, 0, 0, 0.352);
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.you h6{
+    font-size: 20px;
+}
+
+

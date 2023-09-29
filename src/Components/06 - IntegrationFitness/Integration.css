@@ -1,0 +1,42 @@
+.row{
+    margin: 20px;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.magesPersonalize{
+    height: 300px;
+    width: 500px;
+}
+
+.integrationContents{
+    padding: 0px;
+    margin: 0;
+}
+
+.partners{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 40px 40px 40px 40px;
+}
+
+.row p{
+    font-size: 18px;
+}
+.row ul li{
+    font-size: 18px;
+}
+
+.text{
+    font-size: 19px !important;
+}
+
+strong:hover{
+    border-bottom: 2px solid black;
+    transition: 0.5s all ease-in;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+}

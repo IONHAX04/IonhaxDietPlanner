@@ -1,0 +1,57 @@
+.personalizeMeals{
+    text-align: center;
+    align-items: center;
+}
+
+
+.preference{
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+
+}
+
+
+.preferenceContents{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 30px;
+    align-items: center;
+    border-radius: 10px;
+    border-style: dotted;
+    justify-content: center;
+}
+
+
+.allergy{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.formss{
+    padding: 20px;
+}
+
+.formCheckBox{
+    border: 1px solid rgba(0, 0, 0, 0.461);
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+
+.nutritionalCriteria{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.tabs{
+    border: 1px solid  rgba(0, 0, 0, 0.461);
+    border-radius: 10px;
+    padding: 30px 60px;  
+    margin: 30px;
+}

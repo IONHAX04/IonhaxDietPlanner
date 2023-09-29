@@ -1,0 +1,13 @@
+.community-section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}

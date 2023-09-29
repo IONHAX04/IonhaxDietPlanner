@@ -1,0 +1,60 @@
+DIET PLAN GENERATOR
+
+Contents
+-> User registration        -   Design alone Completed
+-> Personalized Diet Plan   -   Completed
+-> Integration with Fitness -   Completed
+-> Community and Support    -   Completed 
+
+-> Calculator               -   Completed
+-> Help                     -   Completed 
+
+
+
+-> Nutritional Information  -   Completed
+-> Articles                 -   
+-> Shopping List            -
+
+
+-> Progress Tracking        -   
+-> Goal Settings            -   Completed
+
+----------------------------------------------
+
+PATCH WORK
+
+Goal Settings - use - retrieve info from js file - use json
+Personalize diet    -   suggest diet based on user Settings
+User registration   -   get user details 
+shopping list       -   
+progress tracking   -   
+
+
+===============================================================================
+
+weigh yourself daily
+
+weight	data	week 0 	week 1	week 2
+chest	"	"	"	"
+R arm
+L arm
+belly
+hips
+
+
+
+rate sleep quality, stress, hunger and fatigue
+
+Sleep issues? (0 = no issues, high-quality sleep. 5 = insomnia.)
+Stress levels (0 = no stress, 5 = divorce or a death in the family.)
+Hunger issues? (0 = no issues, 5 = extreme hunger.)
+Fatigue/lethargy? (0 = no issues, 5 = exceptionally fatigued.)
+
+
+
+keep summary notes on your key lifts
+
+progress, recovered
+not progress, recovered
+not progress, not recovered
+

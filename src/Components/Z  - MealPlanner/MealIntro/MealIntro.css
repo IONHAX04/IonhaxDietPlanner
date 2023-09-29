@@ -1,0 +1,39 @@
+.content1 h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.content1 ul li, h6{
+    text-align: justify;
+    list-style: none;
+}
+
+.content1{
+    margin-top: 40px;
+}
+
+.mealIntroContents{
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+.mealIntroContents button{
+    justify-content: center;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+}
+
+.mealIntroContents{
+    align-items: center;
+}

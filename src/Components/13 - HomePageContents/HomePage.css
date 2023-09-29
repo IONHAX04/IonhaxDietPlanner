@@ -1,0 +1,82 @@
+.mainPageContent {
+    padding:    5%;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainPageContent h2 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.mainPageContent h6 {
+    font-size: 20px;
+}
+
+.mainPageContent Button {
+    font-size: 30px;
+}
+
+/* .startPage{
+    padding: 50px;
+} */
+
+
+
+/* ==================================== */
+.custom-accordion-item {
+    margin: 10px;
+    border-radius: 13px;
+    /* border: 1px solid #ccc; */
+    background-color: #f9f9f9;
+}
+
+.custom-accordion-item .accordion-button {
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+    color: #333;
+    font-weight: bolder;
+}
+
+.custom-accordion-item .accordion-collapse {
+    background-color: #fff;
+}
+
+
+.accordions h2 , .plans h2, .saveTime h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.accordion {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+
+/* =============================== */
+
+.row{
+    justify-content: space-around;
+    padding: 10px;
+    margin: 20px;
+}
+
+.plans, .saveTime{
+    text-align: center;
+    align-items: center;
+    padding: 40px;
+    background: rgb(240, 248, 255);
+}
+
+.card{
+    border: none
+}
