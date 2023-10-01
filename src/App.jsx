@@ -22,6 +22,7 @@ import Update from './Components/1002 - Axios Concepts/Update';
 import { AuthProvider } from './AuthProvider';
 import ShoppingListSuggestions from './Components/07 - ShoppingList/ShoppingListSuggestions';
 import HomePage from './Components/01 - Home/HomePage';
+import RegistrationForm from './Components/RegistrationForm';
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
             <Route path="/axios" element={<Home />} />
             <Route path='/createAxios' element={<Create />} />
             <Route path='/editAxios/:id' element={<Update />} />
+
+            <Route path='/reg' element={<RegistrationForm />} />
+
+            
 
 
 

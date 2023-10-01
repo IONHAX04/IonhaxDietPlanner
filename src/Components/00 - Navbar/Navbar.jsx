@@ -89,8 +89,8 @@ const Navbars = () => {
 
                         >
                             <Offcanvas.Header closeButton>
-                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`} className='navbarBrand'>
-                                    User Name
+                                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}  className='navbarBrand'>
+                                    <a href='/reg'>User Info</a>
                                 </Offcanvas.Title>
                             </Offcanvas.Header>
                             <Offcanvas.Body className=' bg-dark navbar-dark'>

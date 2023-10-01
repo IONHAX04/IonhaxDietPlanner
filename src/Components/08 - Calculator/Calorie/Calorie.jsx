@@ -8,7 +8,8 @@ export default function Calorie() {
     const [height, setHeight] = useState('');
     const [weight, setWeight] = useState('');
     const [age, setAge] = useState('');
-    const [selectedGender, setSelectedGender] = useState('');
+    const [selectedGender, setSelectedGender] = useState('Male'); 
+
     const [activityLevel, setActivityLevel] = useState('');
     const [goal, setGoal] = useState('');
     const [targetCalories, setTargetCalories] = useState(null);
@@ -16,9 +17,9 @@ export default function Calorie() {
     const handleGenderChange = (event) => {
         setSelectedGender(event.target.value);
     };
+    
 
     const calculateCalories = () => {
-        // Constants for calculating BMR (Basal Metabolic Rate)
         const BMRConstants = {
             male: {
                 imperial: 66.5,
@@ -32,15 +33,12 @@ export default function Calorie() {
             },
         };
 
-        // Convert height and weight to metric units if necessary
         const heightInCm = selectedGender === 'Male' ? height * 2.54 : height * 2.54;
         const weightInKg = selectedGender === 'Male' ? weight * 0.453592 : weight * 0.453592;
 
-        // Calculate BMR based on gender
         const genderConstants = BMRConstants[selectedGender.toLowerCase()];
         const BMR = genderConstants.imperial + weightInKg * genderConstants.metric + heightInCm * genderConstants.ageFactor;
 
-        // Calculate Total Daily Energy Expenditure (TDEE) based on activity level
         let TDEE;
         switch (activityLevel) {
             case 'Sedentary - Television or office work':
@@ -63,7 +61,6 @@ export default function Calorie() {
                 break;
         }
 
-        // Calculate target calories based on goal
         let calculatedCalories;
         switch (goal) {
             case 'Cautious (-10% kcal)':
@@ -111,13 +108,6 @@ export default function Calorie() {
             <div className="guide mt-5">
                 <h3>Guide To Calculating Your Calorie Targets</h3>
                 <h4>Step 1: "You"
-                    {/* <img
-                        alt=""
-                        src={you}
-                        width="30"
-                        height="30"
-                        className="d-inline-block align-top p-1"
-                    />{' '} */}
                 </h4>
                 <h5>To accurately determine your daily calorie target, enter your current weight, age, height, and sex into the calculator. Values can be entered in both imperial and metric measurement systems.</h5>
 
@@ -221,8 +211,6 @@ export default function Calorie() {
                         />
                     </InputGroup>
 
-                    <Form.Label>Range</Form.Label>
-                    <Form.Range />
                 </div>
 
                 <h4>Your Activity</h4>
@@ -243,8 +231,7 @@ export default function Calorie() {
 
 
                 <h4>Your Goal</h4>
-                <div className="you mb-5">
-                    <h6>Are you looking to lose, maintain or put on bodyweight?</h6>
+                <div className="you mb-4">
                     <h6>If you are hoping to lose or put on weight, we suggest you opt to use the suggested option as a starting point to assess it's effectiveness before making any adjustments.</h6>
                     <h4><span>Choose your goal</span></h4>
                     <InputGroup className="mb-3">

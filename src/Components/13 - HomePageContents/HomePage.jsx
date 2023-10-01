@@ -14,13 +14,16 @@ import TimeDiet from '../13 - HomePageContents/DietPlans/TimeDiet';
 
 
 export default function HomePage() {
+    const login = () => {
+        window.location.href="/login";  
+    }
     return (
         <div>
             <Row className='startPage'>
                 <Col lg={5} className='mainPageContent'>
                     <h2>Your Personal Diet Planner</h2>
                     <h6>Embark on a journey to a healthier you with our cutting-edge diet planner platform. At Diet Planner, we understand that achieving your fitness and nutrition goals is not just about what you eat; it's about having the right guidance and support along the way.</h6>
-                    <Button variant="outline-secondary">Get Start Your Journey</Button>{' '}
+                    <Button variant="outline-secondary" onClick={login}>Get Start Your Journey</Button>{' '}
                 </Col>
                 <Col lg={7} className='mainPageContent d-none d-lg-block'>
                     <img

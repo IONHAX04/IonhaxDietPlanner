@@ -54,16 +54,8 @@ export default function Fat() {
           <h5>A 155-pound female who has a body fat percentage of 30% would have 46.5 pounds of fat tissue, with the remaining 108.5 pounds of body weight being drawn from muscle, bone, nervous, skin, and other tissues.</h5>
           <h5>Body fat percentage usually relates to fitness level and can be a better indicator of health than BMI.</h5>
 
-          <h4><span>Why is it helpful to track body fat percentage?</span></h4>
-          <h5>Measuring and tracking body fat percentage is useful for a number of reasons.</h5>
-          <ul>
-            <li>Knowing your body fat percentage is important when formulating accurate total daily energy expenditure (TDEE).</li>
-            <li>If you are flexible dieting, you likely aim is to decrease fat mass and increase muscle mass; therefore tracking body fat percentage is an ideal way to keep track on progress.</li>
-            <li>Knowing your body fat percentage will help you establish a realistic and healthy goal weight.</li>
-          </ul>
 
-
-          <div className="calorieCalculator mt-5 mb-3">
+          <div className="calorieCalculator mt-3 mb-3">
             <h2>Body Fat Calculator</h2>
             <h4>You</h4>
             <div className="you mb-5">
